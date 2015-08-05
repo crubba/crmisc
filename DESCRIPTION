@@ -1,0 +1,20 @@
+Package: crmisc
+Title: Functions used in projects by Christian Rubba
+Version: 0.1.0
+Authors@R: person("Christian", "Rubba", email = "christian.rubba@gmail.com",
+  role = c("aut", "cre"))
+Description: crmisc
+Depends:
+    R (>= 3.0.0)
+Imports:
+    dplyr,
+    magrittr,
+    stringr
+License: MIT + file LICENSE
+LazyData: true
+Suggests:
+    testthat,
+    knitr
+URL: https://github.com/crubba/htmltab
+BugReports: https://github.com/crubba/htmltab/issues
+VignetteBuilder: knitr
