@@ -1,6 +1,4 @@
-list_get <- function(l, ext){
-  lapply(l, function(x) x[ext]) %>% unlist
-}
+
 
 
 # Plotting fun annotations r2
@@ -19,29 +17,29 @@ lm_eqn = function(m) {
   as.character(as.expression(eq));                 
 }
 
-
 # char to numeric index
 
-to_numeric <- function(x){
-  x <- as.factor(x)
-  levels(x) <- 1:length(levels(x))
-  x <- as.numeric(as.character(x))
-}
 
-
-# Take a peek around
-around <- function(df, row, d = 2){
-  df[(row-d):(row+d),]
-}
-  
-
-# Take
-take <- function(str, re){
-  str[str_detect(str, re)]
-}
-
-# Absolute diff
+#' Absolute diff
+#' @export
 absolute_diff <- function(x){
   diff <- abs(x[1] - x[2])
   diff
 }
+
+
+
+#' Equal length
+#' @export
+equal_length <- function(x) {
+  x.length <- sapply(x, length)
+  length(unique(x.length)) == 1
+}
+
+
+#' Parent dir
+#'export
+parent_dir <- function(path = getwd()){
+  stringr::str_replace_all(path, "\\/[[:alnum:]]+$", "")
+}
+

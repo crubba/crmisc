@@ -1,6 +1,6 @@
 Package: crmisc
 Title: Functions used in projects by Christian Rubba
-Version: 0.1.0
+Version: 0.1.2
 Authors@R: person("Christian", "Rubba", email = "christian.rubba@gmail.com",
   role = c("aut", "cre"))
 Description: crmisc
