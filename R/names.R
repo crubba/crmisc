@@ -1,3 +1,5 @@
+#' Extract name
+#' @export 
 extract_name <- function(x, which = NULL){
   
   if(is.null(which)) stop("must specify name argument")

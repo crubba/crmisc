@@ -1,3 +1,5 @@
+#' Encode german
+#' @export
 encode_german <- function(x, type = NULL){
   
   if(is.null(type)) stop("please specify type argument")
