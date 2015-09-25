@@ -2,11 +2,14 @@
 % Please edit documentation in R/programming.R
 \name{to_numeric}
 \alias{to_numeric}
-\title{To numeric}
+\title{Changes vectors to numeric.}
 \usage{
 to_numeric(x)
 }
 \description{
-To numeric
+Changes vectors to numeric.
+}
+\details{
+asd
 }
 

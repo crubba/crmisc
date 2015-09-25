@@ -2,11 +2,16 @@
 % Please edit documentation in R/analysis.R
 \name{list_get}
 \alias{list_get}
-\title{List get}
+\title{Extracts elements from a list based on index}
 \usage{
-list_get(l, ext)
+list_get(l, ext, ...)
+}
+\arguments{
+\item{l}{the list}
+
+\item{ext}{the index}
 }
 \description{
-List get
+Extracts elements from a list based on index
 }
 

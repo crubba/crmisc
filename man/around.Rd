@@ -2,11 +2,16 @@
 % Please edit documentation in R/analysis.R
 \name{around}
 \alias{around}
-\title{Take a peek around}
+\title{Print a data frame row and its neighbors}
 \usage{
 around(df, row, d = 2)
 }
+\arguments{
+\item{df}{the data frame}
+
+\item{row}{the row index}
+}
 \description{
-Take a peek around
+Print a data frame row and its neighbors
 }
 

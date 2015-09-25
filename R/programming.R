@@ -15,7 +15,8 @@ ifstop <- function(cond, mess, ...){
 #' @export
 is_empty <- function(x) length(x) == 0
 
-#' To numeric
+#' Changes vectors to numeric. 
+#' @details asd
 #' @export
 to_numeric <- function(x) UseMethod("to_numeric")
 

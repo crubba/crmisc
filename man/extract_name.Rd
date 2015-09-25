@@ -2,11 +2,20 @@
 % Please edit documentation in R/names.R
 \name{extract_name}
 \alias{extract_name}
-\title{Extract name}
+\title{Extracts parts from character vectors of names using simple heuristics}
 \usage{
 extract_name(x, which = NULL)
 }
+\arguments{
+\item{x}{a character vector}
+
+\item{which}{the part of the name to be extracted. "last" extracts family names, "first" first names.}
+}
 \description{
-Extract name
+Extracts parts from character vectors of names using simple heuristics
+}
+\examples{
+extract_name("Dagobert Duck", "last")
+extract_name("Dr. Martin Luther King", "first")
 }
 
